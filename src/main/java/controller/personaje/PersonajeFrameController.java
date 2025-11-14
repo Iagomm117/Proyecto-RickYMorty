@@ -31,7 +31,7 @@ public class PersonajeFrameController {
     }
     
     private void mostrarDatos() throws IOException{
-        int id = Integer.parseInt(view.getItemIdComboBox()) -1;
+        int id = Integer.parseInt(view.getItemIdComboBox()) -1 ;
         this.view.setIconImageLabel(model.getPersonaje(id).getImage());
         this.view.setTextNameLabel(model.getPersonaje(id).getName());
         this.view.setTextStatusLabel(model.getPersonaje(id).getStatus());
@@ -48,7 +48,7 @@ public class PersonajeFrameController {
        ActionListener al = new ActionListener() {
            @Override
            public void actionPerformed(ActionEvent ae) {
-               int id = Integer.parseInt(view.getItemIdComboBox()) -1 ;
+               int id = Integer.parseInt(view.getItemIdComboBox());
                for (int i = 0; i < model.getSize(); i++) {
                     if( id == model.getPersonaje(i).getId()) {
                         try {

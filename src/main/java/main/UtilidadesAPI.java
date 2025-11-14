@@ -112,7 +112,6 @@ public class UtilidadesAPI {
             leerArchivo();
             return personajes;
         } else {
-            MostrarAPI();
             generarArchivo(personajes);
             System.out.println("Archivo creado con exito");
         }

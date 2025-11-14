@@ -4,6 +4,7 @@ import controller.MainFrameController;
 import java.io.IOException;
 import model.Personajes;
 import view.MainFrame;
+import view.usuarios.InicioFrame;
 
 /**
  *
@@ -16,6 +17,8 @@ public class ProyectoRickAndMorty {
         model = UtilidadesAPI.existeArchivo();
         
         MainFrame view = new MainFrame();
+        InicioFrame start = new InicioFrame();
+        //start.setVisible(true);
         MainFrameController controller = new MainFrameController(view,model);
         view.setVisible(true);
     }
