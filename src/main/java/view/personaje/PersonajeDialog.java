@@ -5,6 +5,7 @@
 package view.personaje;
 
 import java.awt.Image;
+import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.net.URL;
 import javax.imageio.ImageIO;
@@ -48,6 +49,7 @@ public class PersonajeDialog extends javax.swing.JDialog {
 
         idLabel.setText("ID");
 
+        imageLabel.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         imageLabel.setText(" ");
 
         nameLabel.setText(" ");
@@ -76,22 +78,22 @@ public class PersonajeDialog extends javax.swing.JDialog {
                         .addGap(42, 42, 42)
                         .addComponent(idComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 312, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(391, 391, 391)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(nameLabel)
-                            .addComponent(imageLabel)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(235, 235, 235)
+                        .addGap(38, 38, 38)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(statusLabel)
                             .addComponent(speciesLabel)
-                            .addComponent(typeLabel))
-                        .addGap(200, 200, 200)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(locationLabel)
-                            .addComponent(originLabel)
-                            .addComponent(genderLabel))))
-                .addContainerGap(266, Short.MAX_VALUE))
+                            .addComponent(genderLabel)
+                            .addComponent(typeLabel)
+                            .addComponent(originLabel))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(320, 320, 320)
+                                .addComponent(nameLabel))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(261, 261, 261)
+                                .addComponent(imageLabel)))))
+                .addContainerGap(370, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -100,23 +102,23 @@ public class PersonajeDialog extends javax.swing.JDialog {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(idComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(idLabel))
-                .addGap(77, 77, 77)
-                .addComponent(imageLabel)
-                .addGap(79, 79, 79)
-                .addComponent(nameLabel)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 46, Short.MAX_VALUE)
+                .addGap(34, 34, 34)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(statusLabel)
-                    .addComponent(genderLabel))
+                    .addComponent(nameLabel)
+                    .addComponent(statusLabel))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(speciesLabel)
-                    .addComponent(originLabel))
+                    .addComponent(imageLabel))
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(typeLabel)
-                    .addComponent(locationLabel))
-                .addGap(68, 68, 68))
+                .addComponent(typeLabel)
+                .addGap(18, 18, 18)
+                .addComponent(genderLabel)
+                .addGap(18, 18, 18)
+                .addComponent(originLabel)
+                .addGap(18, 18, 18)
+                .addComponent(locationLabel)
+                .addContainerGap(199, Short.MAX_VALUE))
         );
 
         pack();
@@ -162,6 +164,10 @@ public class PersonajeDialog extends javax.swing.JDialog {
     
     public String getItemIdComboBox(){
        return this.idComboBox.getSelectedItem().toString();
+    }
+    
+    public void addIdComboBoxActionListener (ActionListener al){
+        this.idComboBox.addActionListener(al);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

@@ -106,14 +106,16 @@ public class UtilidadesAPI {
         }
     }
     
-    public static void existeArchivo() throws IOException, ClassNotFoundException {
+    public static Personajes existeArchivo() throws IOException, ClassNotFoundException {
         File file = new File("personajes.dat");
         if(file.exists()) {
             leerArchivo();
+            return personajes;
         } else {
             MostrarAPI();
             generarArchivo(personajes);
             System.out.println("Archivo creado con exito");
         }
+        return personajes;
     }
 }
