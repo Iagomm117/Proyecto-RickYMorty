@@ -29,3 +29,6 @@ revisamos a fondo el contenido ne la API, en el que podmeos ver, gracias
 a la imagen, que cada personaje tiene su ID identificativo, un nombre, su género, etc.
 
 ![Alt](mediaReadme/Ver_api_en_postman.png)
+
+Al ver la API a fondo, nos damos cuenta que la escogida proporcionada de la página web dada por el profesor, solo nos muestra los 20 personajes, esto pasa porque tiene más de 40 páginas llenas de personajes de la serie, en la que nosotros escogemos las 5 primeras, que continenen 100, para que la aplicación sea completa y a su vez no tenga problemas de sobrecarga.
+La siguiente imágen mustra como la API contiene las página dichas anteriormente, en info, la propiedad "next, indica la siguiente página y "prev" que indica la página anterior. En la imágen de la izquierda podemos ver que en info, la propiedad next indica la 2 página con prev en null ya que la imágen muestra la primera página, y pasaría lo contrarió en la imágen de la derecha
