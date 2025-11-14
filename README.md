@@ -18,5 +18,5 @@ Una vez dentro de la aplicación, el programa hará una busqúeda por ID del per
 
 ##  Postman
 Lo primero de todo, hemos utilizado la página de Postman, en la que revisamos a fondo el contenido ne la API, en el que podmeos ver, gracias a la imagen, que cada personaje tiene su ID identificativo, un nombre, su género, etc.
-
+---
 ![Alt](mediaReadme/Ver_api_en_postman.png)
