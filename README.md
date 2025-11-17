@@ -9,7 +9,7 @@
 (contenido)
 ## Introducción
 Esta es una aplicación que gestiona los 100 personajes más
-relevantes de la serie Rick And Morty sacado de: [(RICK AND MORTY API)](https://www.freepublicapis.com/rick-and-morty-api "API_Rick_And_Morty").
+relevantes de la serie Rick And Morty sacado de [RICK AND MORTY API](https://www.freepublicapis.com/rick-and-morty-api "API_Rick_And_Morty").
 
 Lo que hará el programa será registrarse en la aplicación con
 un nombre de usuario y una contraseña, si el usuario está registrado
