@@ -23,7 +23,7 @@ poder exportar los personajes en un archivo (INIDICAR EXTENSIÓN DEL ARCHIVO)
 
 ---
 
-## Postman
+## 1. Postman
 Lo primero de todo, hemos utilizado la página de Postman, en la que
 revisamos a fondo el contenido de la API, en el que podemos ver, como
 bien muestra imágen, que cada personaje tiene su ID identificativo, un nombre, su género, etc.
