@@ -30,7 +30,7 @@ bien muestra imágen, que cada personaje tiene su ID identificativo, un nombre, 
 
 ![Alt](mediaReadme/Ver_api_en_postman.png)
 
-### Páginas:
+1. Páginas:
 Al mirar la API a fondo, nos damos cuenta que la escogida proporcionada de la página web dada
 por el profesor, solo nos muestra los 20 personajes, esto pasa porque tiene más de 40 páginas
 llenas de personajes de la serie, en la que nosotros escogemos las 5 primeras páginas, que continenen 100,
