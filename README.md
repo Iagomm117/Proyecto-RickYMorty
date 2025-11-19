@@ -47,8 +47,9 @@ una anterior, cosa que pasaría lo contrario en la imágen de la derecha.
 El contenido de cada personaje que queremos usar en la apilcación son:
 1. Nombre -> El nombre del personaje de la serie
 2. Género -> El género que se considera dicho personaje, habiendo género desconocido
-3. Tipo -> El tipo de personaje que es, como por ejemplo "Superhumano", hay personajes que no tienen un tipo específico, en el que la API los muestra como "", y en nuestra aplicación aparecerá vacío en muchos de los casos
+3. Tipo -> El tipo de personaje que es, como por ejemplo "Superhumano"
 4. Localización -> Donde se encutra en la serie
 5. Especie -> Si es humano, Alien, etc.
 6. Estado -> Si está vivo, muerto o si es desconocido
-7. Origien -> El lugar de donde viene el personaje 
+7. Origien -> El lugar de donde viene el personaje
+>Existen personajes que no tienen un tipo específico, en el que la API los muestra como "". En nuestra aplicación aparecerá vacío en muchos de los casos
