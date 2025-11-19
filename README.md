@@ -41,7 +41,7 @@ indica la siguiente página y "prev" indica la página anterior. En la imágen d
 en info, la propiedad next, indica la segunda página con prev en null ya que es la primera página,y no existe
 una anterior, cosa que pasaría lo contrario en la imágen de la derecha.
 
-![Alt]
+![Alt] (mediaReadme/PaginaSinNull.png)
 
 ## Contenido:
 El contenido de cada personaje que queremos usar en la apilcación son:
