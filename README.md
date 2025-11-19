@@ -58,4 +58,6 @@ El contenido de cada personaje que queremos usar en la apilcación son:
 7. Origien -> El lugar de donde viene el personaje
 >Existen personajes que no tienen un tipo específico en el que la API los muestra como " ". En nuestra aplicación aparecerá vacío en muchos de los casos
 
+---
+
 ## Manual técnico para desarrolladores
