@@ -41,7 +41,9 @@ indica la siguiente página y "prev" indica la página anterior. En la primera i
 en info, la propiedad next, indica la segunda página con prev en null ya que es la primera página,y no existe
 una anterior, cosa que pasaría lo contrario en la segunda imágen.
 
+## Imágen 1
 ![Alt](mediaReadme/PaginaANull1.png)
+## Imágen 2
 ![Alt](mediaReadme/PaginaANull2.png)
 
 ## Contenido:
