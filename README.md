@@ -30,7 +30,7 @@ bien muestra imágen, que cada personaje tiene su ID identificativo, un nombre, 
 
 ![Alt](mediaReadme/Ver_api_en_postman.png)
 
-### Páginas:
+## Páginas:
 Al mirar la API a fondo, nos damos cuenta que la escogida proporcionada de la página web dada
 por el profesor, solo nos muestra los 20 personajes, esto pasa porque tiene más de 40 páginas
 llenas de personajes de la serie, en la que nosotros escogemos las 5 primeras páginas, que continenen 100,
@@ -42,3 +42,13 @@ en info, la propiedad next, indica la segunda página con prev en null ya que es
 una anterior, cosa que pasaría lo contrario en la imágen de la derecha.
 
 ![Alt](mediaReadme/PaginaANull.png)
+
+## Contenido:
+El contenido de cada personaje que queremos usar en la apilcación son:
+1. Nombre -> El nombre del personaje de la serie
+2. Género -> El género que se considera dicho personaje, habiendo género desconocido
+3. Tipo -> El tipo de personaje que es, como por ejemplo "Superhumano", hay personajes que no tienen un tipo específico, en el que la API los muestra como "", y en nuestra aplicación aparecerá vacío en muchos de los casos
+4. Localización -> Donde se encutra en la serie
+5. Especie -> Si es humano, Alien, etc.
+6. Estado -> Si está vivo, muerto o si es desconocido
+7. Origien -> El lugar de donde viene el personaje 
