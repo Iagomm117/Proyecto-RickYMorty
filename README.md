@@ -37,9 +37,9 @@ llenas de personajes de la serie, en la que nosotros escogemos las 5 primeras p�
 para que la aplicación sea completa y a su vez no tenga problemas de sobrecarga.
 
 La siguiente imágen mustra como la API contiene las páginas dichas anteriormente, en info, la propiedad "next",
-indica la siguiente página y "prev" indica la página anterior. En la imágen de la izquierda podemos ver que
+indica la siguiente página y "prev" indica la página anterior. En la primera imágen podemos ver que
 en info, la propiedad next, indica la segunda página con prev en null ya que es la primera página,y no existe
-una anterior, cosa que pasaría lo contrario en la imágen de la derecha.
+una anterior, cosa que pasaría lo contrario en la segunda imágen.
 
 ![Alt](mediaReadme/PaginaANull.png)
 ## Contenido:
