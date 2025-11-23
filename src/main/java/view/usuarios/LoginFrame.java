@@ -1,9 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package view.usuarios;
 
+import java.awt.Color;
 import java.awt.event.ActionListener;
 
 /**
@@ -17,6 +14,10 @@ public class LoginFrame extends javax.swing.JFrame {
      */
     public LoginFrame() {
         initComponents();
+        this.getContentPane().setBackground(new Color(0,0,0));
+        registerButton.setBackground(new Color(116,253,131));
+        loginButton.setBackground(new Color(116,253,131));
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
     /**
@@ -28,26 +29,35 @@ public class LoginFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        loginButton = new javax.swing.JButton();
         registerButton = new javax.swing.JButton();
+        loginButton = new javax.swing.JButton();
         nombreTextField = new javax.swing.JTextField();
         PasswordField = new javax.swing.JPasswordField();
         nombreLabel = new javax.swing.JLabel();
         passwordLabel = new javax.swing.JLabel();
+        mensajeLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        loginButton.setText("Iniciar Sesión");
-
         registerButton.setText("Registrarse");
+
+        loginButton.setText("Aceptar");
 
         nombreTextField.setText(" ");
 
-        PasswordField.setText(" ");
+        PasswordField.setText("");
 
+        nombreLabel.setFont(new java.awt.Font("Inter Regular", 1, 18)); // NOI18N
+        nombreLabel.setForeground(new java.awt.Color(255, 255, 255));
         nombreLabel.setText("Usuario:");
 
-        passwordLabel.setText("Contraseña");
+        passwordLabel.setFont(new java.awt.Font("Inter Regular", 1, 18)); // NOI18N
+        passwordLabel.setForeground(new java.awt.Color(255, 255, 255));
+        passwordLabel.setText("Contraseña: ");
+
+        mensajeLabel.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        mensajeLabel.setForeground(new java.awt.Color(255, 255, 255));
+        mensajeLabel.setText(" ");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -57,21 +67,26 @@ public class LoginFrame extends javax.swing.JFrame {
                 .addGap(40, 40, 40)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(registerButton)
-                        .addGap(110, 110, 110)
+                        .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(loginButton)
+                        .addGap(140, 140, 140)
+                        .addComponent(registerButton)
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(passwordLabel)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(PasswordField, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(nombreLabel)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(nombreTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(96, 96, 96))))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(172, 172, 172)
+                .addComponent(mensajeLabel)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -84,10 +99,12 @@ public class LoginFrame extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(PasswordField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(passwordLabel))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 96, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
+                .addComponent(mensajeLabel)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 52, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(loginButton)
-                    .addComponent(registerButton))
+                    .addComponent(registerButton)
+                    .addComponent(loginButton))
                 .addContainerGap())
         );
 
@@ -95,12 +112,12 @@ public class LoginFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
 
-    public void addRegisterButtonActionListener(ActionListener al){
-        this.registerButton.addActionListener(al);
-    }
-    
     public void addLoginButtonActionListener(ActionListener al){
         this.loginButton.addActionListener(al);
+    }
+    
+    public void addRegisterButtonActionListener(ActionListener al){
+        this.registerButton.addActionListener(al);
     }
     
     public String getTextNombreTextField(){
@@ -111,9 +128,14 @@ public class LoginFrame extends javax.swing.JFrame {
         return this.PasswordField.getText();
     }
     
+    public void setTextMensajeLabel(String s){
+        this.mensajeLabel.setText(s);
+    }
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPasswordField PasswordField;
     private javax.swing.JButton loginButton;
+    private javax.swing.JLabel mensajeLabel;
     private javax.swing.JLabel nombreLabel;
     private javax.swing.JTextField nombreTextField;
     private javax.swing.JLabel passwordLabel;

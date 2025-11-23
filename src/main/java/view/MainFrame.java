@@ -4,6 +4,7 @@
  */
 package view;
 
+import java.awt.Color;
 import java.awt.event.ActionListener;
 
 /**
@@ -17,6 +18,9 @@ public class MainFrame extends javax.swing.JFrame {
      */
     public MainFrame() {
         initComponents();
+        this.getContentPane().setBackground(new Color(0,0,0));
+        PersonajeButton.setBackground(new Color(116,253,131));
+        misPersonajesButton.setBackground(new Color(116,253,131));
     }
 
     /**
@@ -30,34 +34,41 @@ public class MainFrame extends javax.swing.JFrame {
 
         PersonajeButton = new javax.swing.JButton();
         imageLabel = new javax.swing.JLabel();
+        misPersonajesButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         PersonajeButton.setText("Personaje...");
 
-        imageLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Rick_and_Morty.png"))); // NOI18N
+        imageLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Rick_and_Morty_Titulo.png"))); // NOI18N
+
+        misPersonajesButton.setText("Mis Personajes...");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(PersonajeButton)
-                .addGap(22, 22, 22))
-            .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(imageLabel)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(PersonajeButton)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(misPersonajesButton)
+                .addGap(275, 275, 275))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(imageLabel)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 95, Short.MAX_VALUE)
-                .addComponent(PersonajeButton)
-                .addGap(17, 17, 17))
+                .addGap(45, 45, 45)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(PersonajeButton)
+                    .addComponent(misPersonajesButton))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
 
         pack();
@@ -67,8 +78,13 @@ public class MainFrame extends javax.swing.JFrame {
         this.PersonajeButton.addActionListener(al);
     }
     
+    public void addMisPersonajesListener(ActionListener al) {
+        this.misPersonajesButton.addActionListener(al);
+    }
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton PersonajeButton;
     private javax.swing.JLabel imageLabel;
+    private javax.swing.JButton misPersonajesButton;
     // End of variables declaration//GEN-END:variables
 }

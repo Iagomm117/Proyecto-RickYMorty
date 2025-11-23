@@ -1,9 +1,9 @@
 package main;
 
-import controller.MainFrameController;
+import controller.usuarios.InicioFrameController;
 import java.io.IOException;
 import model.Personajes;
-import view.MainFrame;
+import model.usuarios.Usuarios;
 import view.usuarios.InicioFrame;
 
 /**
@@ -12,14 +12,14 @@ import view.usuarios.InicioFrame;
  */
 public class ProyectoRickAndMorty {
     private static Personajes model;
+    private static Usuarios users;
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         UtilidadesAPI.MostrarAPI();
         model = UtilidadesAPI.existeArchivo();
+        users = UtilidadesUsuarios.existeArchivo();
         
-        MainFrame view = new MainFrame();
         InicioFrame start = new InicioFrame();
-        //start.setVisible(true);
-        MainFrameController controller = new MainFrameController(view,model);
-        view.setVisible(true);
+        InicioFrameController controller = new InicioFrameController(start,model,users);
+        start.setVisible(true);
     }
 }

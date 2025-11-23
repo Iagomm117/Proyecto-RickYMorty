@@ -1,9 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package view.usuarios;
 
+import java.awt.Color;
 import java.awt.event.ActionListener;
 
 /**
@@ -16,7 +13,12 @@ public class RegisterFrame extends javax.swing.JFrame {
      * Creates new form RegisterFrame
      */
     public RegisterFrame() {
+        
         initComponents();
+        this.getContentPane().setBackground(new Color(0,0,0));
+        registerButton.setBackground(new Color(116,253,131));
+        loginButton.setBackground(new Color(116,253,131));
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
     /**
@@ -28,46 +30,66 @@ public class RegisterFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        RegisterButton = new javax.swing.JButton();
-        LoginButton = new javax.swing.JButton();
+        loginButton = new javax.swing.JButton();
+        registerButton = new javax.swing.JButton();
         userTextField = new javax.swing.JTextField();
         PasswordField = new javax.swing.JPasswordField();
         userLabel = new javax.swing.JLabel();
         passwordLabel = new javax.swing.JLabel();
+        mensajeLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        RegisterButton.setText("Registrarse");
+        loginButton.setText("Iniciar Sesión");
 
-        LoginButton.setText("Iniciar Sesión");
+        registerButton.setText("Registrarse");
+        registerButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                registerButtonActionPerformed(evt);
+            }
+        });
 
-        userTextField.setText(" ");
+        userTextField.setText("");
 
-        PasswordField.setText(" ");
+        PasswordField.setText("");
 
+        userLabel.setFont(new java.awt.Font("Inter Regular", 1, 18)); // NOI18N
+        userLabel.setForeground(new java.awt.Color(255, 255, 255));
         userLabel.setText("Usuario:");
 
-        passwordLabel.setText("Contraseña");
+        passwordLabel.setFont(new java.awt.Font("Inter Regular", 1, 18)); // NOI18N
+        passwordLabel.setForeground(new java.awt.Color(255, 255, 255));
+        passwordLabel.setText("Contraseña:");
+
+        mensajeLabel.setFont(new java.awt.Font("Inter Regular", 1, 18)); // NOI18N
+        mensajeLabel.setForeground(new java.awt.Color(255, 255, 255));
+        mensajeLabel.setText(" ");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(227, Short.MAX_VALUE)
-                .addComponent(LoginButton)
-                .addGap(56, 56, 56)
-                .addComponent(RegisterButton)
-                .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(76, 76, 76)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(passwordLabel)
-                    .addComponent(userLabel))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(PasswordField, javax.swing.GroupLayout.DEFAULT_SIZE, 245, Short.MAX_VALUE)
-                    .addComponent(userTextField))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(registerButton)
+                        .addGap(73, 73, 73)
+                        .addComponent(loginButton))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(76, 76, 76)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(passwordLabel)
+                            .addComponent(userLabel))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(PasswordField, javax.swing.GroupLayout.DEFAULT_SIZE, 245, Short.MAX_VALUE)
+                            .addComponent(userTextField))
+                        .addGap(0, 61, Short.MAX_VALUE)))
+                .addContainerGap())
+            .addGroup(layout.createSequentialGroup()
+                .addGap(92, 92, 92)
+                .addComponent(mensajeLabel)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -81,22 +103,28 @@ public class RegisterFrame extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(PasswordField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(passwordLabel))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 93, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
+                .addComponent(mensajeLabel)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 52, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(RegisterButton)
-                    .addComponent(LoginButton))
+                    .addComponent(loginButton)
+                    .addComponent(registerButton))
                 .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    public void addRegisterButtonActionListener(ActionListener al) {
-        this.RegisterButton.addActionListener(al);
-    }
+    private void registerButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_registerButtonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_registerButtonActionPerformed
 
     public void addLoginButtonActionListener(ActionListener al) {
-        this.LoginButton.addActionListener(al);
+        this.loginButton.addActionListener(al);
+    }
+
+    public void addRegisterButtonActionListener(ActionListener al) {
+        this.registerButton.addActionListener(al);
     }
     
     public String getTextNombreTextField(){
@@ -106,12 +134,24 @@ public class RegisterFrame extends javax.swing.JFrame {
     public String getTextPasswordField(){
         return this.PasswordField.getText();
     }
+    
+    public void setTextMensajeLabel(String s){
+        this.mensajeLabel.setText(s);
+    }
+    
+    public void statusNombreTextField(boolean bol){
+        this.userTextField.setEditable(bol);
+    }
+    public void statusPasswordField(boolean bol){
+        this.PasswordField.setEditable(bol);
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton LoginButton;
     private javax.swing.JPasswordField PasswordField;
-    private javax.swing.JButton RegisterButton;
+    private javax.swing.JButton loginButton;
+    private javax.swing.JLabel mensajeLabel;
     private javax.swing.JLabel passwordLabel;
+    private javax.swing.JButton registerButton;
     private javax.swing.JLabel userLabel;
     private javax.swing.JTextField userTextField;
     // End of variables declaration//GEN-END:variables

@@ -1,9 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package view.usuarios;
 
+import java.awt.Color;
 import java.awt.event.ActionListener;
 
 /**
@@ -17,6 +14,10 @@ public class InicioFrame extends javax.swing.JFrame {
      */
     public InicioFrame() {
         initComponents();
+        this.getContentPane().setBackground(new Color(0,0,0));
+        registerButton.setBackground(new Color(116,253,131));
+        loginButton.setBackground(new Color(116,253,131));
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
     /**

@@ -1,6 +1,7 @@
 package model.usuarios;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -10,12 +11,13 @@ import java.util.List;
 public class Usuarios implements Serializable{
     private List<Usuario> usuarios;
 
-    public Usuarios(List<Usuario> usuarios) {
-        this.usuarios = usuarios;
+    public Usuarios() {
+        this.usuarios = new ArrayList();
     }
 
     public List<Usuario> getUsuarios() {
         return usuarios;
+        
     }
     
     public void addUsuario(Usuario usuario){
@@ -26,7 +28,8 @@ public class Usuarios implements Serializable{
         return this.usuarios.size();
     }
     
-     public Usuario getPersonaje(int n) {
+     public Usuario getUsuario(int n) {
         return (Usuario) this.usuarios.get(n);
     }
+     
 }
