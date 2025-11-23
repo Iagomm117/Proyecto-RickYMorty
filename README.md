@@ -68,7 +68,7 @@ El contenido de cada personaje que queremos usar en la apilcación son:
 
 ---
 
-## Estructura de paquetes
+## 2. Estructura de paquetes
 ![Alt](mediaReadme/EstructuraPaquetes.png)
 
 ## Reparto de la tareas
