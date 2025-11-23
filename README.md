@@ -140,7 +140,12 @@ En esta hay 2 botones, el botón de añadir personaje y otro de poder modificar 
 
 Cada cuadro tiene un **tooltip** indicando que se deben insertar para que funcione el botón
 
-<img src="mediaReadme/tooltipEliminar.png" alt="Alt">       <img src="mediaReadme/tooltipModificar.png" alt="Alt">
+<p align="center">
+  <img src="mediaReadme/tooltipEliminar.png" alt="Alt">
+</p>
+<p align="center">
+  <img src="mediaReadme/tooltipModificar.png" alt="Alt">
+</p>
 
 **Eliminar**, como su propio nombre indica, permite eliminar el personaje que queramos de nuestro archivo.
 Para poder eliminarlo hay que indicar el id del personaje que está en el archivo, **NO EL ID DE LA PROPIA API**, en el cuadro que está en la izquierda del botón y nos dejaría eliminarlo. 
