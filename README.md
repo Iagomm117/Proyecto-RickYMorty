@@ -20,7 +20,7 @@ lanzará un error para que el usuario cubra bien dichos campos.
 Una vez dentro de la aplicación, el programa hará una busqúeda por
 ID del personaje, mostrando campos como su nombre, género, especie,
 una imágen del propio personaje, etc. Permitiendo en la propia ventana
-poder exportar los personajes en un archivo (INIDICAR EXTENSIÓN DEL ARCHIVO)
+poder exportar los personajes en un archivo .dat
 
 ---
 
