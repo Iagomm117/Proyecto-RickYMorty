@@ -200,6 +200,24 @@ Se puede ver que en el archivo se realizó el cambio anterior
   <img src="mediaReadme/RickSuperHumano.png" alt="Alt">
 </p>
 
+---
+
+## 4. Cosas a mejorar por falta de tiempo
+
+1. Con las últimas modificaciones del código, los botones **Eliminar** y **Modificar** no hacen su cometido como se indicó en el manual de usuario, dado que no nos dió tiempo, decidimos que estos botones sigan ahí presentes con la ventana de **Modificar Personaje** pero descativamos su funcionalidad para que la aplicación siga funcionando correctamente.
+
+2. Al faltarnos tiempo nos gustaría poder arreglar las ventanas al moverlas, en otras palabras, cuando intentas redimensionar la ventana, la imágen se queda fija pero los textos se mueven, ya que nos gustaría que todo quedara fijo.
+
+<p align="center">
+  <img src="mediaReadme/redimensionarImagen.png" alt="Alt">
+</p>
+
+3. En algunos personajes, al tener unas especificaciones tan largas, se superponen entre ellas, cosas que nos gustaría también solucionar pero lo colocamos en esta sección por, otra vez, falta de tiempo.
+
+<p align="center">
+  <img src="mediaReadme/textosSuperpuestos.png" alt="Alt">
+</p>
+
 ## Reparto de la tareas
 Iago -> Sistemas de gestion de usuarios, Interfaz gráfica (Swing), correcion de codigo mal ejecutado por el compañero / HORAS EXTRAS -> 10H
 Ivan -> conexion a la api, Procesamiento y almacenamiento de datos, funcionalidades CRUD, README / HORAS EXTRAS -> 7H
