@@ -79,6 +79,13 @@ El contenido de cada personaje que queremos usar en la apilcación son:
 
 ## 3. Manual de usuario
 
+## Iniciar Sesión / Registrarse
+Al iniciar la aplicación, nos aparece una ventana, en la que, tendremos que iniciar sesión si ya tenemos una cuenta, o registrarse si por lo contrario somos nuevos usuarios
+![Alt](IniciarSesion-Registrarse/EstructuraPaquetes.png)
+
+Si ya tenemos una cuenta, indicaremos nuestro nombre de **usuario** y la **contraseña** en la que no estará visible para  proteger nuestra privacidad, y pincharemos en la opción aceptar para acceder a la aplicación
+
+Si de  
 ## Reparto de la tareas
 Iago -> Sistemas de gestion de usuarios, Interfaz gráfica (Swing), correcion de codigo mal ejecutado por el compañero / HORAS EXTRAS -> 10H
 Ivan -> conexion a la api, Procesamiento y almacenamiento de datos, funcionalidades CRUD, README / HORAS EXTRAS -> 7H
