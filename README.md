@@ -69,6 +69,7 @@ El contenido de cada personaje que queremos usar en la apilcación son:
 ---
 
 ## Estructura de paquetes
+![Alt](mediaReadme/EstructuraPaquetes.png)
 
 ## Reparto de la tareas
 Iago -> Sistemas de gestion de usuarios, Interfaz gráfica (Swing), correcion de codigo mal ejecutado por el compañero / HORAS EXTRAS -> 10H
