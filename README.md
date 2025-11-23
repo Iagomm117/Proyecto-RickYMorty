@@ -86,10 +86,18 @@ Al iniciar la aplicación, nos aparece una ventana, en la que, tendremos que ini
   <img src="mediaReadme/IniciarSesion-Registrarse.png" alt="Alt">
 </p>
 
+Si ya tenemos una cuenta, indicaremos nuestro nombre de **usuario** y la **contraseña** en la que no estará visible para  proteger nuestra privacidad, y pincharemos en la opción **aceptar** para acceder a la aplicación
 
-Si ya tenemos una cuenta, indicaremos nuestro nombre de **usuario** y la **contraseña** en la que no estará visible para  proteger nuestra privacidad, y pincharemos en la opción aceptar para acceder a la aplicación
+<p align="center">
+  <img src="mediaReadme/iniciarSesion.png" alt="Alt">
+</p>
 
-Si de  
+Si de lo contrario no tenemos una cuenta, en el botón de la derecha tenemos una opcion de registrarse en la que pondremos también nuestro nombre de **usuario** e indicaremos una **contraseña**. Una vez creada la cuenta, podemos iniciar sesión con ella para acceder a la aplicación
+
+<p align="center">
+  <img src="mediaReadme/registrarse.png" alt="Alt">
+</p>
+
 ## Reparto de la tareas
 Iago -> Sistemas de gestion de usuarios, Interfaz gráfica (Swing), correcion de codigo mal ejecutado por el compañero / HORAS EXTRAS -> 10H
 Ivan -> conexion a la api, Procesamiento y almacenamiento de datos, funcionalidades CRUD, README / HORAS EXTRAS -> 7H
