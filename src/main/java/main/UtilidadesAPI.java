@@ -101,9 +101,6 @@ public class UtilidadesAPI {
         FileInputStream arquivo = new FileInputStream("personajes.dat");
         ObjectInputStream entrada = new ObjectInputStream(arquivo);
         Personajes personaje = (Personajes) entrada.readObject();
-        for(Personaje p : personaje.getPersonajes()){
-            System.out.println(p.getId());
-        }
     }
     
     public static Personajes existeArchivo() throws IOException, ClassNotFoundException {

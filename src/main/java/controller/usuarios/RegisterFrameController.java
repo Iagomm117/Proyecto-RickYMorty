@@ -55,7 +55,8 @@ public class RegisterFrameController {
             @Override
             public void actionPerformed(ActionEvent ae) {
                 if (users.getSize() > 0) {
-                    for (Usuario u : users.getUsuarios()) {
+                    try{
+                        for (Usuario u : users.getUsuarios()) {
                         if (u.getUsuario().equals(view.getTextNombreTextField())) {
                             view.setTextMensajeLabel("El usuario ya existe");
                             break;
@@ -66,13 +67,14 @@ public class RegisterFrameController {
                             view.setTextMensajeLabel("El usuario se creo correctamente");
                             try {
                                 UtilidadesUsuarios.actualizarArchivo(users);
-                            } catch (IOException ex) {
-                                Logger.getLogger(RegisterFrameController.class.getName()).log(Level.SEVERE, null, ex);
-                            } catch (ClassNotFoundException ex) {
+                            } catch (IOException | ClassNotFoundException ex) {
                                 Logger.getLogger(RegisterFrameController.class.getName()).log(Level.SEVERE, null, ex);
                             }
                         }
-                    }
+                        }
+                    }catch(Exception ex){
+                            
+                    } 
                 } else {
                     users.addUsuario(new Usuario(view.getTextNombreTextField(), view.getTextPasswordField()));
                     view.statusNombreTextField(false);

@@ -21,7 +21,6 @@ public class UtilidadesUsuarios {
         FileOutputStream arquivo = new FileOutputStream("usuarios.dat");
         ObjectOutputStream saida = new ObjectOutputStream(arquivo);
         saida.writeObject(usuarios);
-
     }
 
     public static void leerArchivo() throws IOException, ClassNotFoundException {
@@ -30,7 +29,6 @@ public class UtilidadesUsuarios {
         Usuarios usuario = (Usuarios) entrada.readObject();
         for(Usuario u : usuario.getUsuarios()){
             usuarios.addUsuario(u);
-            System.out.println(u.getUsuario());
         }
     }
 
@@ -49,7 +47,6 @@ public class UtilidadesUsuarios {
         File file = new File("usuarios.dat");
         if(file.exists()) {
             leerArchivo();
-            System.out.println(usuarios.getSize());
             return usuarios;
         } else {
             System.out.println("Se requiere crear un usuario");
