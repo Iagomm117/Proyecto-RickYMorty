@@ -75,9 +75,9 @@ El contenido de cada personaje que queremos usar en la apilcación son:
 2. Revisar dependencias
 3. Ejecutar la clase **main** para poder iniciar el proyecto
 
-**Desde una terminal**:
-1. Entramos dentro de la carpeta del proyecto
-2. 
+---
+
+## 3. Manual de usuario
 
 ## Reparto de la tareas
 Iago -> Sistemas de gestion de usuarios, Interfaz gráfica (Swing), correcion de codigo mal ejecutado por el compañero / HORAS EXTRAS -> 10H
