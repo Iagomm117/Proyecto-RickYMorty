@@ -191,7 +191,7 @@ Si no cometimos ningún fallo, nos llevará a una ventana con los datos del pers
 Saltando un mensaje de que el personaje se cambió correctamente
 
 <p align="center">
-  <img src="mediaReadme/PersonajeModificadoCorrectamente.pnh" alt="Alt">
+  <img src="mediaReadme/PersonajeModificadoCorrectamente.png" alt="Alt">
 </p>
 
 Se puede ver que en el archivo se realizó el cambio anterior
