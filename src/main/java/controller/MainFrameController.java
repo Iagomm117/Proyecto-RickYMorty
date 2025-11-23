@@ -87,7 +87,7 @@ public class MainFrameController {
                                 JOptionPane.showMessageDialog(pd, "ID inválido");
                                 return;
                             }
-                           // ModificacionPersonajeController mpc = new ModificacionPersonajeController(pd, model,user); No funciona el boton como corresponde
+                           ModificacionPersonajeController mpc = new ModificacionPersonajeController(pd, model,user); 
                             
                         });
                         PersonajeFrameController pc = new PersonajeFrameController(pd, lista, user);

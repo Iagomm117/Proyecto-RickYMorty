@@ -82,7 +82,7 @@ public class ModificacionPersonajeController {
 
         dialog.setPersonajeData(String.valueOf(p.getId()),p.getName(),p.getStatus(),p.getSpecie(),p.getType(),p.getGender(), p.getOrigin().getName(), p.getLocation().getName());
 
-        dialog.addModifyPersonajeAcceptButtonListener(new ActionListener() {
+        /*dialog.addModifyPersonajeAcceptButtonListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent ev) {
             JTextField[] fields = dialog.getTextFieldsArray();
@@ -105,7 +105,7 @@ public class ModificacionPersonajeController {
             dialog.dispose();
             JOptionPane.showMessageDialog(mainView, "Personaje modificado correctamente");
         }
-    });
+    });*/
     dialog.setVisible(true);
     }
 
