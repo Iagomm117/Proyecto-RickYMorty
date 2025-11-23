@@ -126,6 +126,21 @@ Este botón tiene la funcion de añadir el personaje que nosotros queramos a nue
 
 ## Ventana Mis Personajes
 
+En este ventana podemos ver los personajes que añadimos anteriormente, cada personaje tiene un ID en el que el primer personaje empieza por 1, el segundo por 2 y así sucesivamente.
+
+<p align="center">
+  <img src="mediaReadme/ventanaMisPersonajes.png" alt="Alt">
+</p>
+
+En esta hay 2 botones, el botón de añadir personaje y otro de poder modificar el personaje, con su cuadro para indicar el ID que se quiere eliminar. Cada cuadro tiene un **tooltip** indicando que se deben insertar para que funcione el botón
+
+<p align="center">
+  <img src="mediaReadme/eliminarYModificar.png" alt="Alt">
+</p>
+
+**Eliminar**, como su propio nombre indica, permite eliminar el personaje que queramos de nuestro archivo.
+Para poder eliminarlo hay que indicar el id del personaje que está en el archivo, **NO EL ID DE LA PROPIA API**, en el cuadro que está en la izquierda del botón y nos dejaría eliminarlo. 
+
 ## Reparto de la tareas
 Iago -> Sistemas de gestion de usuarios, Interfaz gráfica (Swing), correcion de codigo mal ejecutado por el compañero / HORAS EXTRAS -> 10H
 Ivan -> conexion a la api, Procesamiento y almacenamiento de datos, funcionalidades CRUD, README / HORAS EXTRAS -> 7H
