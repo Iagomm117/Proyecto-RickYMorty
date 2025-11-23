@@ -60,7 +60,7 @@ El contenido de cada personaje que queremos usar en la apilcación son:
 
 ---
 
-## Manual técnico para desarrolladores
+## 2. Manual técnico para desarrolladores
 * **Versión utilizada**: La aplicación se desarrollo en Java 17, en la que  nos damos cuenta de que necesitarmeos una versión igual o superior para poder ejecutar el proyecto
 * **Interfaz Gráfica**:  La aplicación contiene una interfaz gráfica realizada con Swing
 * **Proyecto**: El proyecto se realizó con Maven, por lo que una vez más, para ejecutar el proyecto, se necesitará tener Maven instalado
@@ -68,7 +68,7 @@ El contenido de cada personaje que queremos usar en la apilcación son:
 
 ---
 
-## 2. Estructura de paquetes
+## Estructura de paquetes
 ![Alt](mediaReadme/EstructuraPaquetes.png)
 
 ## Reparto de la tareas
