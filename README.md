@@ -66,6 +66,10 @@ El contenido de cada personaje que queremos usar en la apilcación son:
 * **Proyecto**: El proyecto se realizó con Maven, por lo que una vez más, para ejecutar el proyecto, se necesitará tener Maven instalado
 * **IDE**: Para la creación del proyecto se usó el IDE NetBeans en el que se desarralló la aplicación
 
+---
+
+## Estructura de paquetes
+
 ## Reparto de la tareas
 Iago -> Sistemas de gestion de usuarios, Interfaz gráfica (Swing), correcion de codigo mal ejecutado por el compañero / HORAS EXTRAS -> 10H
 Ivan -> conexion a la api, Procesamiento y almacenamiento de datos, funcionalidades CRUD, README / HORAS EXTRAS -> 7H
