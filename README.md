@@ -66,10 +66,18 @@ El contenido de cada personaje que queremos usar en la apilcación son:
 * **Proyecto**: El proyecto se realizó con Maven, por lo que una vez más, para ejecutar el proyecto, se necesitará tener Maven instalado
 * **IDE**: Para la creación del proyecto se usó el IDE NetBeans en el que se desarralló la aplicación
 
----
-
 ## Estructura de paquetes
 ![Alt](mediaReadme/EstructuraPaquetes.png)
+
+## Ejecución del proyecto
+**Desde cualquier IDE**:
+1. Importar el proyecto como un proyecto Maven
+2. Revisar dependencias
+3. Ejecutar la clase **main** para poder iniciar el proyecto
+
+**Desde una terminal**:
+1. Entramos dentro de la carpeta del proyecto
+2. 
 
 ## Reparto de la tareas
 Iago -> Sistemas de gestion de usuarios, Interfaz gráfica (Swing), correcion de codigo mal ejecutado por el compañero / HORAS EXTRAS -> 10H
