@@ -1,4 +1,4 @@
-# RICK AND MORTY APP
+<img width="768" height="672" alt="image" src="https://github.com/user-attachments/assets/d3e8ca84-abe6-4799-9ce1-bbf555098816" /># RICK AND MORTY APP
 ---
 ## Índice
 (contenido)
@@ -79,7 +79,7 @@ El contenido de cada personaje que queremos usar en la apilcación son:
 
 ## 3. Manual de usuario
 
-## Iniciar Sesión / Registrarse
+## Ventanas Iniciar Sesión / Registrarse
 Al iniciar la aplicación, nos aparece una ventana, en la que, tendremos que iniciar sesión si ya tenemos una cuenta, o registrarse si por lo contrario somos nuevos usuarios.
 
 <p align="center">
@@ -97,6 +97,34 @@ Si de lo contrario no tenemos una cuenta, en el botón de la derecha tenemos una
 <p align="center">
   <img src="mediaReadme/registrarse.png" alt="Alt">
 </p>
+
+## Ventana Principal
+Ya registrados, nos muestra la ventana principal en la que podemos, ver los personajes de la API en el botón "Personaje...", o bien ver mis personajes añadidos en el fichero en el botón "Mis Personajes..."
+
+<p align="center">
+  <img src="mediaReadme/VentanaPrincipal.png" alt="Alt">
+</p>
+
+## Ventana Personaje
+En esta ventana, se ven los **100 personajes** de la API en la que podemos ir cambiando gracias al comboBox ID que tenemos añadido. Cada personaje muestra su ID, y su contenido dicho anteriormente.
+
+<p align="center">
+  <img src="mediaReadme/VentanaPersonaje.png" alt="Alt">
+</p>
+
+Podemos ver que arriba a la derecha hay un botón de **Añadir Personaje**
+
+<p align="center">
+  <img src="mediaReadme/botonAñadir" alt="Alt">
+</p>
+
+Este botón tiene la funcion de añadir el personaje que nosotros queramos a nuestro archivo, que luevo podemos ver en la ventana **Mis Personajes**. Para añadir un personaje basta con estar en su ventana, en la imágen de abajo lo mustra muy bien, si quiero añadir al personaje 100, iremos al id 100 y pincharemos en el botón de añadir
+
+<p align="center">
+  <img src="mediaReadme/añadirPersonaje" alt="Alt">
+</p>
+
+## Ventana Mis Personajes
 
 ## Reparto de la tareas
 Iago -> Sistemas de gestion de usuarios, Interfaz gráfica (Swing), correcion de codigo mal ejecutado por el compañero / HORAS EXTRAS -> 10H
