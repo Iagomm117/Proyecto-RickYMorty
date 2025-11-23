@@ -147,8 +147,26 @@ Cada cuadro tiene un **tooltip** indicando que se deben insertar para que funcio
   <img src="mediaReadme/tooltipModificar.png" alt="Alt">
 </p>
 
-**Eliminar**, como su propio nombre indica, permite eliminar el personaje que queramos de nuestro archivo.
-Para poder eliminarlo hay que indicar el id del personaje que está en el archivo, **NO EL ID DE LA PROPIA API**, en el cuadro que está en la izquierda del botón y nos dejaría eliminarlo. 
+**Eliminar:** como su propio nombre indica, permite eliminar el personaje que queramos de nuestro archivo.
+Para poder eliminarlo hay que indicar el id del personaje que está en el archivo, **NO EL ID DE LA PROPIA API**, en el cuadro que está en la izquierda del botón.
+
+Si le indicamos un ID inexistente, saltará un aviso.
+
+<p align="center">
+  <img src="mediaReadme/excepcionEliminar2.png" alt="Alt">
+</p>
+
+Si pinchamos en el botón de eliminar sin un ID asignado, también saltará una excepción.
+
+<p align="center">
+  <img src="mediaReadme/excepcionEliminar1.png" alt="Alt">
+</p>
+
+Si no cometimos ningún fallo, el personaje se eliminaría de nuestro archivo
+
+<p align="center">
+  <img src="mediaReadme/eliminadoCorrectamente.png" alt="Alt">
+</p>
 
 ## Reparto de la tareas
 Iago -> Sistemas de gestion de usuarios, Interfaz gráfica (Swing), correcion de codigo mal ejecutado por el compañero / HORAS EXTRAS -> 10H
