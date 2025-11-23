@@ -132,7 +132,7 @@ En este ventana podemos ver los personajes que añadimos anteriormente, cada per
   <img src="mediaReadme/ventanaMisPersonajes.png" alt="Alt">
 </p>
 
-En esta hay 2 botones, el botón de añadir personaje y otro de poder modificar el personaje, con su cuadro para indicar el ID que se quiere eliminar. 
+En esta hay 2 botones, el botón de eliminar y otro de poder modificar personaje, con su cuadro para indicar el ID del propio personaje que se quiere eliminar. 
 
 <p align="center">
   <img src="mediaReadme/eliminarYModificar.png" alt="Alt">
@@ -150,7 +150,7 @@ Cada cuadro tiene un **tooltip** indicando que se deben insertar para que funcio
 **Eliminar:** como su propio nombre indica, permite eliminar el personaje que queramos de nuestro archivo.
 Para poder eliminarlo hay que indicar el id del personaje que está en el archivo, **NO EL ID DE LA PROPIA API**, en el cuadro que está en la izquierda del botón.
 
-Si le indicamos un ID inexistente, saltará un aviso.
+Si le indicamos un ID inexistente, saltará una excepción.
 
 <p align="center">
   <img src="mediaReadme/excepcionEliminar2.png" alt="Alt">
@@ -166,6 +166,38 @@ Si no cometimos ningún fallo, el personaje se eliminaría de nuestro archivo
 
 <p align="center">
   <img src="mediaReadme/eliminadoCorrectamente.png" alt="Alt">
+</p>
+
+**Modificar**: Este botón tiene la misma funcionalidad que el de eliminar, solo que al pinchar en el nos lleva a una ventana para modificar lo que veamos necesario.
+
+Si le indicamos un ID inexistente, saltará una excepción.
+
+<p align="center">
+  <img src="mediaReadme/excepcionModificar1.png" alt="Alt">
+</p>
+
+Si pinchamos en el botón de eliminar sin un ID asignado, también saltará una excepción.
+
+<p align="center">
+  <img src="mediaReadme/excepcionModificar2.png" alt="Alt">
+</p>
+
+Si no cometimos ningún fallo, nos llevará a una ventana con los datos del personaje para que los podamos modificar. En la imágen muestra los datos del personaje "Rick Sanchez", como este no tiene tipo, le indicamos uno cualquiera y aceptamos los cambios
+
+<p align="center">
+  <img src="mediaReadme/ventanaModificar.png" alt="Alt">
+</p>
+
+Saltando un mensaje de que el personaje se cambió correctamente
+
+<p align="center">
+  <img src="mediaReadme/PersonajeModificadoCorrectamente.pnh" alt="Alt">
+</p>
+
+Se puede ver que en el archivo se realizó el cambio anterior
+
+<p align="center">
+  <img src="mediaReadme/RickSuperHumano.png" alt="Alt">
 </p>
 
 ## Reparto de la tareas
