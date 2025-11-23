@@ -6,7 +6,7 @@
 - [2. Manual técnico para desarrolladores](#2-manual-técnico-para-desarrolladores)
 - [3. Manual de usuario](#3-manual-de-usuario)
 - [4. Cosas a mejorar por falta de tiempo](#4-cosas-a-mejorar-por-falta-de-tiempo)
-- [5. Reparto de la tareas](#reparto-de-la-tareas)
+- [5. Reparto de tareas](#5-reparto-de-tareas)
 
 
 ## Introducción
@@ -221,7 +221,7 @@ Se puede ver que en el archivo se realizó el cambio anterior
 
 ---
 
-## 5. Reparto de la tareas
+## 5. Reparto de tareas
 **Iago**:
 1. Sistemas de gestion de usuarios
 2. Interfaz gráfica (Swing)
