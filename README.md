@@ -218,6 +218,22 @@ Se puede ver que en el archivo se realizó el cambio anterior
   <img src="mediaReadme/textosSuperpuestos.png" alt="Alt">
 </p>
 
+---
+
 ## Reparto de la tareas
-Iago -> Sistemas de gestion de usuarios, Interfaz gráfica (Swing), correcion de codigo mal ejecutado por el compañero / HORAS EXTRAS -> 10H
-Ivan -> conexion a la api, Procesamiento y almacenamiento de datos, funcionalidades CRUD, README / HORAS EXTRAS -> 7H
+**Iago**:
+1. Sistemas de gestion de usuarios
+2. Interfaz gráfica (Swing)
+3. Funcionalidades CRUD
+4. Correción de código mal ejecutado por el compañero
+---
+**HORAS EXTRAS**: 12 H
+---
+**Ivan**:
+1. Conexión a la api,
+2. Procesamiento y almacenamiento de datos
+3. Funcionalidades CRUD
+4. README
+---
+**HORAS EXTRAS** -> 10 H
+---
