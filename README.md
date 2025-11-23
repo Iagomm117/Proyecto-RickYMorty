@@ -226,6 +226,7 @@ Se puede ver que en el archivo se realizó el cambio anterior
 2. Interfaz gráfica (Swing)
 3. Funcionalidades CRUD
 4. Correción de código mal ejecutado por el compañero
+---
 **HORAS EXTRAS**: 12 H
 
 **Ivan**:
