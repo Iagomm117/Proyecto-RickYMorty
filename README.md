@@ -82,7 +82,9 @@ El contenido de cada personaje que queremos usar en la apilcación son:
 ## Iniciar Sesión / Registrarse
 Al iniciar la aplicación, nos aparece una ventana, en la que, tendremos que iniciar sesión si ya tenemos una cuenta, o registrarse si por lo contrario somos nuevos usuarios.
 
-<p align="center">![Alt](mediaReadme/IniciarSesion-Registrarse.png)</p>
+<p align="center">
+  <img src="mediaReadme/IniciarSesion-Registrarse.png" alt="Alt">
+</p>
 
 
 Si ya tenemos una cuenta, indicaremos nuestro nombre de **usuario** y la **contraseña** en la que no estará visible para  proteger nuestra privacidad, y pincharemos en la opción aceptar para acceder a la aplicación
