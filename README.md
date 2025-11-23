@@ -1,4 +1,4 @@
-<img width="768" height="672" alt="image" src="https://github.com/user-attachments/assets/d3e8ca84-abe6-4799-9ce1-bbf555098816" /># RICK AND MORTY APP
+# RICK AND MORTY APP
 ---
 ## Índice
 (contenido)
