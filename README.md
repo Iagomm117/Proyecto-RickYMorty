@@ -115,13 +115,13 @@ En esta ventana, se ven los **100 personajes** de la API en la que podemos ir ca
 Podemos ver que arriba a la derecha hay un botón de **Añadir Personaje**
 
 <p align="center">
-  <img src="mediaReadme/botonAñadir" alt="Alt">
+  <img src="mediaReadme/botonAñadir.png" alt="Alt">
 </p>
 
 Este botón tiene la funcion de añadir el personaje que nosotros queramos a nuestro archivo, que luevo podemos ver en la ventana **Mis Personajes**. Para añadir un personaje basta con estar en su ventana, en la imágen de abajo lo mustra muy bien, si quiero añadir al personaje 100, iremos al id 100 y pincharemos en el botón de añadir
 
 <p align="center">
-  <img src="mediaReadme/añadirPersonaje" alt="Alt">
+  <img src="mediaReadme/añadirPersonaje.png" alt="Alt">
 </p>
 
 ## Ventana Mis Personajes
