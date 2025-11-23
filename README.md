@@ -1,12 +1,23 @@
 # RICK AND MORTY APP
 ---
 ## Índice
-(contenido)
-(contenido)
-(contenido)
-(contenido)
-(contenido)
-(contenido)
+- [Introducción](#introducción)
+- [1. Postman](#1-postman)
+- [Páginas](#páginas)
+- [Imágen 1](#imágen-1)
+- [Imágen 2](#imágen-2)
+- [Contenido](#contenido)
+- [2. Manual técnico para desarrolladores](#2-manual-técnico-para-desarrolladores)
+- [Estructura de paquetes](#estructura-de-paquetes)
+- [Ejecución del proyecto](#ejecución-del-proyecto)
+- [3. Manual de usuario](#3-manual-de-usuario)
+- [Ventanas Iniciar Sesión / Registrarse](#ventanas-iniciar-sesión--registrarse)
+- [Ventana Principal](#ventana-principal)
+- [Ventana Personaje](#ventana-personaje)
+- [Ventana Mis Personajes](#ventana-mis-personajes)
+- [4. Cosas a mejorar por falta de tiempo](#4-cosas-a-mejorar-por-falta-de-tiempo)
+- [Reparto de la tareas](#reparto-de-la-tareas)
+
 
 ## Introducción
 Esta es una aplicación que gestiona los 100 personajes más
@@ -220,7 +231,7 @@ Se puede ver que en el archivo se realizó el cambio anterior
 
 ---
 
-## Reparto de la tareas
+## 5. Reparto de la tareas
 **Iago**:
 1. Sistemas de gestion de usuarios
 2. Interfaz gráfica (Swing)
